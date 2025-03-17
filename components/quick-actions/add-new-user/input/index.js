@@ -2,7 +2,11 @@ export default function Input({ title, name }) {
   return (
     <div className="flex my-5 ">
       <label>{title}</label>
-      <input type="text" name={name} className="bg-white ms-auto text-black" />
+      <input
+        type="text"
+        name={name}
+        className="bg-white ms-auto text-black border-black"
+      />
     </div>
   );
 }
