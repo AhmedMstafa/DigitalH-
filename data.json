@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Ali",
+    "email": "ahmed.ali@example.com",
+    "avatar": "/images/new-user.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sara Hassan",
+    "email": "sara.hassan@example.com",
+    "avatar": "/images/new-user.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Omar Youssef",
+    "email": "omar.youssef@example.com",
+    "avatar": "/images/new-user.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fatma Ibrahim",
+    "email": "fatma.ibrahim@example.com",
+    "avatar": "/images/new-user.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Khaled Mahmoud",
+    "email": "khaled.mahmoud@example.com",
+    "avatar": "/images/new-user.jpg"
+  }
+]
