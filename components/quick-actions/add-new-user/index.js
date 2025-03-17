@@ -11,7 +11,6 @@ export default function AddNewUser() {
   function onSubmitHandler(event) {
     event.preventDefault();
     const formData = new FormData(form.current);
-
     const newUser = {
       id: users.length + 1,
       name: formData.get('name'),
@@ -25,7 +24,7 @@ export default function AddNewUser() {
 
   return (
     <section className="border py-5">
-      <form ref={form} onSubmit={onSubmitHandler} className="max-w-90 mx-auto">
+      <form ref={form} onSubmit={onSubmitHandler} className="max-w-70 mx-auto">
         <Input title="user name" name="name" />
         <Input title="email" name="email" />
         <button
