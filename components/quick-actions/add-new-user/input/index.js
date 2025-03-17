@@ -1,11 +1,11 @@
 export default function Input({ title, name }) {
   return (
-    <div className="flex my-5 ">
+    <div className="flex my-5">
       <label>{title}</label>
       <input
         type="text"
         name={name}
-        className="bg-white ms-auto text-black border-black"
+        className="bg-white ms-auto text-black outline-1 border border-black"
       />
     </div>
   );

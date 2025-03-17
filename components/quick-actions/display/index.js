@@ -1,4 +1,4 @@
-import Button from '../../btn';
+import Button from './btn';
 import { screens } from '@/store/display-context';
 export default function Display() {
   return (

@@ -25,7 +25,7 @@ export default function AddNewUser() {
 
   return (
     <section className="border py-5">
-      <form ref={form} onSubmit={onSubmitHandler} className="max-w-70 mx-auto">
+      <form ref={form} onSubmit={onSubmitHandler} className="max-w-90 mx-auto">
         <Input title="user name" name="name" />
         <Input title="email" name="email" />
         <button
